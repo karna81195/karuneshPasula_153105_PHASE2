@@ -1,0 +1,2 @@
+create table customers(mobileNo varchar2(10) primary key,name varchar2(15),balance number(10,2));
+create table recenttransactions(mobileNo varchar2(10),transactionType varchar2(15),tdate date,amount number(20,2));
